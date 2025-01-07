@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTS Fence | Quality Fencing Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">LTS Fence</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="cta">Get a Free Quote</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Quality Fencing Solutions for Your Home and Business</h1>
+            <p>Durable, Stylish, and Affordable Fences Tailored to Your Needs.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn">Request a Quote</a>
+                <a href="#gallery" class="btn secondary">View Our Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Residential Fencing</h3>
+                <p>Secure and beautify your property.</p>
+            </div>
+            <div class="card">
+                <h3>Commercial Fencing</h3>
+                <p>Protect your business with durable solutions.</p>
+            </div>
+            <div class="card">
+                <h3>Custom Designs</h3>
+                <p>Tailored to match your style and needs.</p>
+            </div>
+            <div class="card">
+                <h3>Fence Repair & Maintenance</h3>
+                <p>Keep your fences in top shape.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <h2>Our Work Speaks for Itself</h2>
+        <div class="gallery-grid">
+            <img src="images/fence1.jpg" alt="Wooden Fence">
+            <img src="images/fence2.jpg" alt="Vinyl Fence">
+            <img src="images/fence3.jpg" alt="Wrought Iron Fence">
+        </div>
+        <a href="#gallery" class="btn">View Full Gallery</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 LTS Fence. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    background: #444;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cta {
+    background: #ff7f50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-buttons .btn {
+    display: inline-block;
+    margin: 0 0.5rem;
+    padding: 0.8rem 1.5rem;
+    background: #ff7f50;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    background: #222;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
